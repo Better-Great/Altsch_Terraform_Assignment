@@ -54,6 +54,8 @@ Fetches dynamic data from AWS:
 
 This data can be used throughout the Terraform configuration for dynamic resource creation and configuration.
 
+# Modules Used In This Configuration
+
 ## S3 Bucket Module
 ### Purpose:
 The s3_bucket module is responsible for creating an Amazon S3 bucket. This bucket was used to create and upload the files for the static website for Tween-gency. 
